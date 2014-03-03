@@ -1,7 +1,6 @@
 PeerShark: Peer-to-Peer botnet detection by tracking conversations.
-This was developed by Subhajit Ray when he was doing his undergrad 
-studies (B.E. Computer Science) at BITS Pilani, Hyderabad campus. 
-Since he did not upload it publicly, I am doing it on his behalf.
+This was developed by a Subhajit Ray. Since he did not upload it publicly,
+I am doing it on his behalf.
 
 
 Modules to be used in the following order:
