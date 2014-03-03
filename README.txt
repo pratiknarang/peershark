@@ -1,3 +1,8 @@
+PeerShark: Peer-to-Peer botnet detection by tracking conversations.
+This was developed by a Subhajit Ray. Since he did not upload it publicly,
+I am doing it on his behalf.
+
+
 Modules to be used in the following order:
 
 1. FilterPackets.py : Take inputdir or input files from PCAPFILES.
