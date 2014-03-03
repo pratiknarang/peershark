@@ -25,3 +25,8 @@ Number of files generated = (end - start)/increment
 One file is generated for each value of timegap ranging from start to end.
 
 4. plotGraphs.py: for generating graphs
+
+5. createTrainingData.py: use this file to create labelled training data set. 
+It reads *folders* (not files) residing in SUPERFLOWDATADIR, and creates *one* 
+labelled file (weka style minus the header) per folder (with required attributes only- 
+no. of pkts, no. of bytes, iat, duration, label) with the folder name appended as last column.
