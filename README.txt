@@ -36,3 +36,6 @@ One file is generated for each value of timegap ranging from start to end.
 It reads *folders* (not files) residing in SUPERFLOWDATADIR, and creates *one* 
 labelled file (weka style minus the header) per folder (with required attributes only- 
 no. of pkts, no. of bytes, iat, duration, label) with the folder name appended as last column.
+
+After generating a labelled 'training dataset', supervised machine learning algorithms
+can be used to generate models for P2P botnet detection.
