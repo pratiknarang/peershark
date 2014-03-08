@@ -3,6 +3,7 @@ This was developed by Subhajit Ray while working with me during
 his undergrad studies at BITS Pilani, Hyderabad campus. 
 Since he did not upload it publicly, I am doing it on his behalf.
 
+PeerShark requires Python v2.7.* and Tshark installed, and has been tested only for Linux environment. 
 
 Modules to be used in the following order:
 
@@ -29,6 +30,8 @@ usage: python generateSuperFlows.py start(in hrs) increment(in hrs) end(in hrs)
 
 Number of files generated = (end - start)/increment
 One file is generated for each value of timegap ranging from start to end.
+
+OPTIONAL:
 
 4. plotGraphs.py: for generating graphs
 
