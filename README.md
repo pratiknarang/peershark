@@ -18,24 +18,25 @@ protocol, payload length. One new file is created per pcap file
 which contains only the fields we want for future analysis. The
 new files are stored in PCAPDATADIR.
 
-usage : python FilterPackets.py
+...usage : python FilterPackets.py
 
 2. GenerateFlows.py : Take each file from PCAPDATADIR -> generate
 flow information -> store processed data for each file in
 FLOWDATADIR. 
 
-usage : python GenerateFlows.py
+...usage : python GenerateFlows.py
 
 3. generateSuperFlows.py : Take each file from FLOWDATADIR -> merge
 flows into superflows based on input parameters -> store in 
 SUPERFLOWDATADIR.
 
-usage: python generateSuperFlows.py start(in hrs) increment(in hrs) end(in hrs)
+...usage: python generateSuperFlows.py start(in hrs) increment(in hrs) end(in hrs)
 
-Number of files generated = (end - start)/increment
-One file is generated for each value of timegap ranging from start to end.
+...Number of files generated = (end - start)/increment
 
-OPTIONAL:
+...One file is generated for each value of timegap ranging from start to end.
+
+###OPTIONAL:
 
 4. plotGraphs.py: for generating graphs
 
