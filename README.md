@@ -1,9 +1,11 @@
 PeerShark: Peer-to-Peer botnet detection by tracking conversations.
+============================
 
-Contributors:
-	Pratik Narang
-	Subhajit Ray
-	Chittaranjan Hota
+### Contributors
+* Pratik Narang
+* Subhajit Ray
+* Chittaranjan Hota
+
 
 PeerShark requires Python v2.7.* and Tshark installed, and has been tested only for Linux environment. 
 
