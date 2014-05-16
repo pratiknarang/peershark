@@ -1,6 +1,7 @@
-PeerShark: Peer-to-Peer botnet detection by tracking conversations.
+PeerShark
 ============================
-
+Peer-to-Peer botnet detection by tracking conversations
+ 
 ### Contributors
 * Pratik Narang
 * Subhajit Ray
@@ -18,7 +19,7 @@ protocol, payload length. One new file is created per pcap file
 which contains only the fields we want for future analysis. The
 new files are stored in PCAPDATADIR.
 
-...usage : python FilterPackets.py
+  usage : python FilterPackets.py
 
 2. GenerateFlows.py : Take each file from PCAPDATADIR -> generate
 flow information -> store processed data for each file in
@@ -36,7 +37,7 @@ SUPERFLOWDATADIR.
 
   One file is generated for each value of timegap ranging from start to end.
 
-###OPTIONAL:
+####OPTIONAL:
 
 4. plotGraphs.py: for generating graphs
 
