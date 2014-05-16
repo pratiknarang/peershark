@@ -24,17 +24,17 @@ new files are stored in PCAPDATADIR.
 flow information -> store processed data for each file in
 FLOWDATADIR. 
 
- ...usage : python GenerateFlows.py
+  usage : python GenerateFlows.py
 
 3. generateSuperFlows.py : Take each file from FLOWDATADIR -> merge
 flows into superflows based on input parameters -> store in 
 SUPERFLOWDATADIR.
 
- ...usage: python generateSuperFlows.py start(in hrs) increment(in hrs) end(in hrs)
+ usage: python generateSuperFlows.py start(in hrs) increment(in hrs) end(in hrs)
 
- ...Number of files generated = (end - start)/increment
+  Number of files generated = (end - start)/increment
 
- ...One file is generated for each value of timegap ranging from start to end.
+  One file is generated for each value of timegap ranging from start to end.
 
 ###OPTIONAL:
 
