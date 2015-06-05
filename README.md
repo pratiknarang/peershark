@@ -1,12 +1,15 @@
 PeerShark
 ============================
 Peer-to-Peer botnet detection by tracking conversations
- 
+
 ### Contributors
 * Pratik Narang
 * Subhajit Ray
 * Chittaranjan Hota
 
+###Research papers:
+*Narang, P., Ray, S., Hota, C., & Venkatakrishnan, V. (2014, May). Peershark: detecting peer-to-peer botnets by tracking conversations. In Security and Privacy Workshops (SPW), 2014 IEEE (pp. 108-115). IEEE.
+*Narang, P., Hota, C., & Venkatakrishnan, V. N. (2014). PeerShark: flow-clustering and conversation-generation for malicious peer-to-peer traffic identification. EURASIP Journal on Information Security, 2014(1), 1-12.
 
 PeerShark requires Python v2.7.* and Tshark installed, and has been tested only for Linux environment. 
 
